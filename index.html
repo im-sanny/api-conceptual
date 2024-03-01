@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Conceptual</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+    <!-- header -->
+    <section>
+        <div id="category-bar-container" class="category-bar mx-0 bg-gray-300 h-24 flex justify-center items-center gap-5">
+        </div>
+    </section>
+
+    <!-- main -->
+    <section class="mx-5 lg:mx-32 mt-5">
+        <div class="search-container text-center">
+            <input type="text" id="search-box" class="input input-bordered w-full max-w-xs" placeholder="type Here category name...."/>
+            <button onclick="handleSearch()" id="search-btn" class="btn">Search</button>
+        </div>
+    
+        <div id="news-container" class="news-container">
+            <div class="hero bg-base-200 rounded-lg mt-5">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- <div id="loading-spiner" class="loading-spiner">
+        <img src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca.gif" alt="">
+    </div> -->
+
+    <!-- add javascript file -->
+    <script src="index.js"></script>
+
+</body>
+</html>
